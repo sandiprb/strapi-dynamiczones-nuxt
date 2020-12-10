@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_cta_cta_justified_singles",
+  "info": {
+    "name": "CTAJustifiedSingle",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "CTAText": {
+      "type": "string"
+    },
+    "CTALink": {
+      "type": "string"
+    }
+  }
+}

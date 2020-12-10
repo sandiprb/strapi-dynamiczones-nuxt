@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_contact_contact_centereds",
+  "info": {
+    "name": "ContactCentered",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

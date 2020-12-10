@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_lead_lead_form_stackeds",
+  "info": {
+    "name": "LeadFormStacked",
+    "icon": "chalkboard-teacher"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "CTAText": {
+      "type": "string"
+    }
+  }
+}

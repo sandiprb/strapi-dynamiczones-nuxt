@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_cta_cta_centereds",
+  "info": {
+    "name": "CTACentered",
+    "icon": "external-link-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "CTAText": {
+      "type": "string"
+    },
+    "CTALink": {
+      "type": "string"
+    }
+  }
+}

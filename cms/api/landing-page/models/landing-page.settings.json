@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "landing_pages",
+  "info": {
+    "name": "Landing Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "pageInfo": {
+      "type": "text"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    },
+    "components": {
+      "type": "dynamiczone",
+      "components": [
+        "contact.contact-centered",
+        "cta.cta-centered",
+        "cta.cta-justified-single",
+        "hero.hero-centered-imaged",
+        "hero.hero-centered",
+        "lead.lead-form-stacked"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    }
+  }
+}

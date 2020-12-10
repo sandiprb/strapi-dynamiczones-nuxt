@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_hero_hero_centereds",
+  "info": {
+    "name": "HeroCentered",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "primaryCtaText": {
+      "type": "string"
+    },
+    "primaryCTALink": {
+      "type": "string"
+    },
+    "secondaryCTAText": {
+      "type": "string"
+    },
+    "secondaryCTALink": {
+      "type": "string"
+    }
+  }
+}
