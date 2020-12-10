@@ -1,0 +1,52 @@
+query LandingPage($slug: String) {
+  landingPageBySlug(slug: $slug) {
+    title
+    slug
+    seo {
+      title
+      metaDescription
+      keywords
+      image {
+        url
+      }
+    }
+    components {
+      __typename
+      ... on ComponentContactContactCentered {
+        title
+        description
+      }
+      ... on ComponentHeroHeroCenteredImaged {
+        title
+        description
+        image {
+          url
+        }
+      }
+      ... on ComponentCtaCtaCentered {
+        title
+        description
+        CTAText
+        CTALink
+      }
+      ... on ComponentCtaCtaJustifiedSingle {
+        title
+        CTAText
+        CTALink
+      }
+      ... on ComponentHeroHeroCentered {
+        title
+        description
+        primaryCtaText
+        primaryCTALink
+        secondaryCTAText
+        secondaryCTALink
+      }
+      ... on ComponentLeadLeadFormStacked {
+        title
+        CTAText
+        description
+      }
+    }
+  }
+}

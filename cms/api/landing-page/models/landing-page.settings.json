@@ -2,11 +2,13 @@
   "kind": "collectionType",
   "collectionName": "landing_pages",
   "info": {
-    "name": "Landing Page"
+    "name": "Landing Page",
+    "description": ""
   },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": true
   },
   "attributes": {
     "pageInfo": {
